@@ -15,7 +15,7 @@ export default function LeadPage() {
   return (
     <main className={styles.page}>
       <div className={styles.card}>
-        <h1 className={styles.title}>Get in touch</h1>
+        <h1 className={styles.title}>Get In Touch</h1>
         <LeadForm config={leadFields} onSubmit={handleSubmit} />
 
         {result && (
